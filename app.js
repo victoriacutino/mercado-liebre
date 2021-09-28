@@ -24,7 +24,7 @@ app.post('/login', (req,res)=>{
     res.sendFile (path.resolve(__dirname,'./views/home.html'));
 })
 
-app.listen (3000 || process.env.PORT, ()=>{
+app.listen (process.env.PORT || 3000 , ()=>{
     console.log ('Server corriendo en el puerto 3000');
 });
 
