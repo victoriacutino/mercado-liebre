@@ -1,0 +1,85 @@
+/*Main*/
+
+h3{
+    font-size:24px;
+    padding: 15px;
+}
+
+.descuentos, .descripcion {
+    font-size:16px;
+}
+
+.precio{
+    font-size:18px;
+   }
+
+.banner{
+    width:100%;
+}
+
+.product-img{
+    width:100%;
+}
+
+.product{
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.descuentos{
+    color:#39b54a;
+}
+.numeros-desc{
+    display:flex;
+    align-items: flex-start;
+}
+
+.numeros-desc .precio{
+ width: 30%;
+}
+
+.numeros-desc .descuentos{
+    width: 70%;
+   }
+
+.main{
+    margin:0 auto;
+    width: 90%;
+    
+}
+
+.fa-truck{
+    color: #39b54a;
+    border:solid 1px #39b54a;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 16px;
+    width: 20px;
+    height: 20px;
+    background-color: #FFF;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+.fa-truck i{
+    font-size: 2em;
+    text-align: center;
+}
+
+.product-box{
+    text-align-last: left;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    position: relative;
+
+}
+
+.body{
+    background-color: #ebebeb;
+}
+
+.descripcion{
+    display:none;
+}
+

@@ -1,0 +1,41 @@
+/*Footer*/
+
+footer{
+    text-align: center;
+    background-color: white;
+    margin-top:50px;
+}
+
+.fa-credit-card, .fa-gift, .fa-user-shield {
+    color:#1259c3;
+    text-align: center; 
+    font-size: 2em;
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+.main-footer{
+    margin-bottom: 20px;
+    width: 100%
+    
+}
+
+.footer-dis{
+    margin-top: 10px;
+    padding-top: 20px;
+    margin:auto;
+    align-items: center;
+}
+.reservados{
+    text-align: left;
+    margin:15px 20px; 
+}
+
+.descripcion-footer{
+    font-size: 12px;
+}
+
+footer h4{
+    margin-bottom: 10px;
+}
